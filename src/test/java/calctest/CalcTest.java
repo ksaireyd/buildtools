@@ -13,5 +13,10 @@ public class CalcTest {
     public void checkAdding(){
         Assert.assertEquals(calculator.addByModule(3,12,7),1);
     }
+    @Test
+    public void checkSybstraction(){
+        Assert.assertEquals(calculator.sub(4,6),-2);
+    }
+
 }
 
