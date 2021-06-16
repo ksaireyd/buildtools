@@ -17,5 +17,6 @@ public class CalcTest {
     public void checkSybstraction(){
         Assert.assertEquals(calculator.sub(4,6),-2);
     }
+
 }
 
