@@ -13,4 +13,8 @@ public class Calculator {
     public int multWithModul(int x,int y, int module){
         return (x*y)%module;
     }
+
+    public int divWithModul(int x,int y, int module){
+        return (x/y)%module;
+    }
 }
